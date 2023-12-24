@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  nginx:
+    container_name: nginx-http
+    image: nginx:stable-alpine3.17
+    ports:
+      - ${NGINX_PORT}:80
