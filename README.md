@@ -1,4 +1,4 @@
-# simple_http
+# sample_http
 http client/server を実現するアプローチの検討
 
 複雑なことはしないのでDJangoやFlaskのようなフレームワークを必要としない場合の
