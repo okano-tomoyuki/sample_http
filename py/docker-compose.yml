@@ -9,4 +9,4 @@ services:
     ports:
       - ${PY_PORT}:80
     volumes:
-      - ./data/:/work/
+      - ./data/:/usr/local/src/data

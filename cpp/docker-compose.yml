@@ -8,3 +8,7 @@ services:
       dockerfile: Dockerfile
     ports:
       - ${CPP_PORT}:80
+    environment:
+      - PROJECT_ROOT=/usr/local/src
+    volumes:
+      - ./data/:/usr/local/src/data/
